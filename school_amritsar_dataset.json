@@ -1,0 +1,699 @@
+[
+  {
+    "_id": {
+      "$oid": "650000000000000000000001"
+    },
+    "school_name": "Government Senior Secondary School, Ramdass, Amritsar",
+    "location": {
+      "village": "Ramdass",
+      "district": "Amritsar",
+      "state": "Punjab",
+      "country": "India"
+    },
+    "flood_impact": {
+      "flooded": true,
+      "water_depth_cm": 80,
+      "flood_date": "2025-08-28",
+      "damage_summary": "Waist\u2011deep water inundated ground floor; furniture shifted to first floor; boundary wall damaged"
+    },
+    "students": [
+      {
+        "student_id": "STU001",
+        "name": "Mandeep Deol",
+        "grade": 12,
+        "age": 13,
+        "emergency_contact": {
+          "name": "Harminder Brar",
+          "relation": "Father",
+          "phone": "9826362008"
+        },
+        "status": "injured",
+        "present_during_flood": false
+      },
+      {
+        "student_id": "STU002",
+        "name": "Simran Sekhon",
+        "grade": 10,
+        "age": 15,
+        "emergency_contact": {
+          "name": "Satnam Kaur",
+          "relation": "Father",
+          "phone": "9847252706"
+        },
+        "status": "injured",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU003",
+        "name": "Lovepreet Mann",
+        "grade": 8,
+        "age": 18,
+        "emergency_contact": {
+          "name": "Arshdeep Dhillon",
+          "relation": "Guardian",
+          "phone": "9826013098"
+        },
+        "status": "evacuated",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU004",
+        "name": "Harpreet Brar",
+        "grade": 8,
+        "age": 16,
+        "emergency_contact": {
+          "name": "Satnam Dhillon",
+          "relation": "Guardian",
+          "phone": "9853806139"
+        },
+        "status": "evacuated",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU005",
+        "name": "Mandeep Toor",
+        "grade": 6,
+        "age": 13,
+        "emergency_contact": {
+          "name": "Navdeep Kaur",
+          "relation": "Father",
+          "phone": "9888406806"
+        },
+        "status": "safe",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU006",
+        "name": "Kiran Pannu",
+        "grade": 11,
+        "age": 18,
+        "emergency_contact": {
+          "name": "Jagdeep Sidhu",
+          "relation": "Mother",
+          "phone": "9871131700"
+        },
+        "status": "evacuated",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU007",
+        "name": "Lovepreet Pannu",
+        "grade": 12,
+        "age": 16,
+        "emergency_contact": {
+          "name": "Kiran Sidhu",
+          "relation": "Father",
+          "phone": "9868756967"
+        },
+        "status": "safe",
+        "present_during_flood": false
+      },
+      {
+        "student_id": "STU008",
+        "name": "Rajinder Sekhon",
+        "grade": 9,
+        "age": 11,
+        "emergency_contact": {
+          "name": "Kiran Chahal",
+          "relation": "Mother",
+          "phone": "9871011803"
+        },
+        "status": "safe",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU009",
+        "name": "Harminder Sandhu",
+        "grade": 7,
+        "age": 16,
+        "emergency_contact": {
+          "name": "Gurpreet Pannu",
+          "relation": "Sister",
+          "phone": "9865370899"
+        },
+        "status": "injured",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU010",
+        "name": "Simran Pannu",
+        "grade": 7,
+        "age": 18,
+        "emergency_contact": {
+          "name": "Sukhpreet Bajwa",
+          "relation": "Sister",
+          "phone": "9842264678"
+        },
+        "status": "safe",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU011",
+        "name": "Baljeet Kaur",
+        "grade": 11,
+        "age": 17,
+        "emergency_contact": {
+          "name": "Gurpreet Deol",
+          "relation": "Mother",
+          "phone": "9836610654"
+        },
+        "status": "evacuated",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU012",
+        "name": "Navdeep Deol",
+        "grade": 9,
+        "age": 12,
+        "emergency_contact": {
+          "name": "Mandeep Toor",
+          "relation": "Mother",
+          "phone": "9866785944"
+        },
+        "status": "injured",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU013",
+        "name": "Kiran Randhawa",
+        "grade": 9,
+        "age": 13,
+        "emergency_contact": {
+          "name": "Kiran Randhawa",
+          "relation": "Sister",
+          "phone": "9826988817"
+        },
+        "status": "safe",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU014",
+        "name": "Harminder Brar",
+        "grade": 12,
+        "age": 18,
+        "emergency_contact": {
+          "name": "Manjit Pannu",
+          "relation": "Brother",
+          "phone": "9863818700"
+        },
+        "status": "safe",
+        "present_during_flood": false
+      },
+      {
+        "student_id": "STU015",
+        "name": "Sukhpreet Randhawa",
+        "grade": 7,
+        "age": 14,
+        "emergency_contact": {
+          "name": "Mandeep Brar",
+          "relation": "Mother",
+          "phone": "9875275159"
+        },
+        "status": "evacuated",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU016",
+        "name": "Kiran Dhillon",
+        "grade": 9,
+        "age": 15,
+        "emergency_contact": {
+          "name": "Arshdeep Dhillon",
+          "relation": "Mother",
+          "phone": "9826647539"
+        },
+        "status": "injured",
+        "present_during_flood": false
+      },
+      {
+        "student_id": "STU017",
+        "name": "Jagdeep Dhillon",
+        "grade": 9,
+        "age": 18,
+        "emergency_contact": {
+          "name": "Mandeep Bajwa",
+          "relation": "Sister",
+          "phone": "9858276189"
+        },
+        "status": "evacuated",
+        "present_during_flood": false
+      },
+      {
+        "student_id": "STU018",
+        "name": "Jaspreet Sekhon",
+        "grade": 12,
+        "age": 12,
+        "emergency_contact": {
+          "name": "Simran Randhawa",
+          "relation": "Sister",
+          "phone": "9867705297"
+        },
+        "status": "injured",
+        "present_during_flood": false
+      },
+      {
+        "student_id": "STU019",
+        "name": "Satnam Sekhon",
+        "grade": 12,
+        "age": 18,
+        "emergency_contact": {
+          "name": "Manjit Randhawa",
+          "relation": "Brother",
+          "phone": "9892329321"
+        },
+        "status": "injured",
+        "present_during_flood": false
+      },
+      {
+        "student_id": "STU020",
+        "name": "Rajinder Singh",
+        "grade": 6,
+        "age": 12,
+        "emergency_contact": {
+          "name": "Aman Pannu",
+          "relation": "Brother",
+          "phone": "9829654941"
+        },
+        "status": "safe",
+        "present_during_flood": false
+      },
+      {
+        "student_id": "STU021",
+        "name": "Kiran Deol",
+        "grade": 7,
+        "age": 16,
+        "emergency_contact": {
+          "name": "Kiran Sidhu",
+          "relation": "Mother",
+          "phone": "9852641473"
+        },
+        "status": "safe",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU022",
+        "name": "Navdeep Sandhu",
+        "grade": 8,
+        "age": 11,
+        "emergency_contact": {
+          "name": "Manjit Chahal",
+          "relation": "Mother",
+          "phone": "9852501011"
+        },
+        "status": "evacuated",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU023",
+        "name": "Gurpreet Bajwa",
+        "grade": 7,
+        "age": 15,
+        "emergency_contact": {
+          "name": "Arshdeep Toor",
+          "relation": "Brother",
+          "phone": "9835561711"
+        },
+        "status": "safe",
+        "present_during_flood": false
+      },
+      {
+        "student_id": "STU024",
+        "name": "Charanjit Chahal",
+        "grade": 10,
+        "age": 12,
+        "emergency_contact": {
+          "name": "Rajinder Sekhon",
+          "relation": "Father",
+          "phone": "9861266606"
+        },
+        "status": "safe",
+        "present_during_flood": false
+      },
+      {
+        "student_id": "STU025",
+        "name": "Harminder Gill",
+        "grade": 10,
+        "age": 14,
+        "emergency_contact": {
+          "name": "Navdeep Brar",
+          "relation": "Brother",
+          "phone": "9828329576"
+        },
+        "status": "safe",
+        "present_during_flood": false
+      },
+      {
+        "student_id": "STU026",
+        "name": "Parminder Gill",
+        "grade": 7,
+        "age": 12,
+        "emergency_contact": {
+          "name": "Charanjit Pannu",
+          "relation": "Father",
+          "phone": "9868785366"
+        },
+        "status": "evacuated",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU027",
+        "name": "Gurpreet Sidhu",
+        "grade": 6,
+        "age": 13,
+        "emergency_contact": {
+          "name": "Gurpreet Deol",
+          "relation": "Brother",
+          "phone": "9893777848"
+        },
+        "status": "injured",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU028",
+        "name": "Jaspreet Brar",
+        "grade": 12,
+        "age": 11,
+        "emergency_contact": {
+          "name": "Mandeep Sidhu",
+          "relation": "Brother",
+          "phone": "9878034513"
+        },
+        "status": "safe",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU029",
+        "name": "Mandeep Dhillon",
+        "grade": 10,
+        "age": 18,
+        "emergency_contact": {
+          "name": "Aman Randhawa",
+          "relation": "Mother",
+          "phone": "9867197930"
+        },
+        "status": "injured",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU030",
+        "name": "Simran Chahal",
+        "grade": 11,
+        "age": 12,
+        "emergency_contact": {
+          "name": "Mandeep Gill",
+          "relation": "Mother",
+          "phone": "9890225275"
+        },
+        "status": "injured",
+        "present_during_flood": false
+      },
+      {
+        "student_id": "STU031",
+        "name": "Sukhpreet Brar",
+        "grade": 10,
+        "age": 16,
+        "emergency_contact": {
+          "name": "Jaspreet Gill",
+          "relation": "Guardian",
+          "phone": "9820566683"
+        },
+        "status": "evacuated",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU032",
+        "name": "Harminder Singh",
+        "grade": 7,
+        "age": 12,
+        "emergency_contact": {
+          "name": "Gurpreet Pannu",
+          "relation": "Guardian",
+          "phone": "9813647551"
+        },
+        "status": "safe",
+        "present_during_flood": false
+      },
+      {
+        "student_id": "STU033",
+        "name": "Harpreet Dhillon",
+        "grade": 7,
+        "age": 11,
+        "emergency_contact": {
+          "name": "Sukhpreet Sekhon",
+          "relation": "Brother",
+          "phone": "9843388516"
+        },
+        "status": "evacuated",
+        "present_during_flood": false
+      },
+      {
+        "student_id": "STU034",
+        "name": "Charanjit Toor",
+        "grade": 7,
+        "age": 14,
+        "emergency_contact": {
+          "name": "Jagdeep Sandhu",
+          "relation": "Mother",
+          "phone": "9875959750"
+        },
+        "status": "evacuated",
+        "present_during_flood": false
+      },
+      {
+        "student_id": "STU035",
+        "name": "Sukhpreet Randhawa",
+        "grade": 10,
+        "age": 16,
+        "emergency_contact": {
+          "name": "Jagdeep Sandhu",
+          "relation": "Mother",
+          "phone": "9896730964"
+        },
+        "status": "safe",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU036",
+        "name": "Jaspreet Sidhu",
+        "grade": 12,
+        "age": 12,
+        "emergency_contact": {
+          "name": "Parminder Mann",
+          "relation": "Mother",
+          "phone": "9852300106"
+        },
+        "status": "safe",
+        "present_during_flood": false
+      },
+      {
+        "student_id": "STU037",
+        "name": "Parminder Kaur",
+        "grade": 11,
+        "age": 13,
+        "emergency_contact": {
+          "name": "Navdeep Dhillon",
+          "relation": "Sister",
+          "phone": "9812440195"
+        },
+        "status": "safe",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU038",
+        "name": "Charanjit Randhawa",
+        "grade": 10,
+        "age": 13,
+        "emergency_contact": {
+          "name": "Harpreet Singh",
+          "relation": "Brother",
+          "phone": "9886286593"
+        },
+        "status": "evacuated",
+        "present_during_flood": false
+      },
+      {
+        "student_id": "STU039",
+        "name": "Harminder Sekhon",
+        "grade": 11,
+        "age": 18,
+        "emergency_contact": {
+          "name": "Charanjit Dhillon",
+          "relation": "Brother",
+          "phone": "9824615215"
+        },
+        "status": "safe",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU040",
+        "name": "Navdeep Deol",
+        "grade": 11,
+        "age": 18,
+        "emergency_contact": {
+          "name": "Kiran Gill",
+          "relation": "Guardian",
+          "phone": "9856248577"
+        },
+        "status": "evacuated",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU041",
+        "name": "Arshdeep Kaur",
+        "grade": 12,
+        "age": 12,
+        "emergency_contact": {
+          "name": "Gurpreet Bajwa",
+          "relation": "Father",
+          "phone": "9827581548"
+        },
+        "status": "safe",
+        "present_during_flood": false
+      },
+      {
+        "student_id": "STU042",
+        "name": "Manjit Bajwa",
+        "grade": 6,
+        "age": 16,
+        "emergency_contact": {
+          "name": "Sukhpreet Pannu",
+          "relation": "Brother",
+          "phone": "9889617574"
+        },
+        "status": "evacuated",
+        "present_during_flood": false
+      },
+      {
+        "student_id": "STU043",
+        "name": "Aman Sekhon",
+        "grade": 8,
+        "age": 18,
+        "emergency_contact": {
+          "name": "Kiran Gill",
+          "relation": "Sister",
+          "phone": "9812786557"
+        },
+        "status": "evacuated",
+        "present_during_flood": false
+      },
+      {
+        "student_id": "STU044",
+        "name": "Gurpreet Toor",
+        "grade": 9,
+        "age": 12,
+        "emergency_contact": {
+          "name": "Harpreet Kaur",
+          "relation": "Mother",
+          "phone": "9859830068"
+        },
+        "status": "evacuated",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU045",
+        "name": "Manjit Mann",
+        "grade": 11,
+        "age": 14,
+        "emergency_contact": {
+          "name": "Mandeep Kaur",
+          "relation": "Guardian",
+          "phone": "9824766193"
+        },
+        "status": "injured",
+        "present_during_flood": false
+      },
+      {
+        "student_id": "STU046",
+        "name": "Parminder Toor",
+        "grade": 9,
+        "age": 17,
+        "emergency_contact": {
+          "name": "Lovepreet Chahal",
+          "relation": "Father",
+          "phone": "9850724451"
+        },
+        "status": "safe",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU047",
+        "name": "Jaspreet Bajwa",
+        "grade": 11,
+        "age": 17,
+        "emergency_contact": {
+          "name": "Jagdeep Sidhu",
+          "relation": "Brother",
+          "phone": "9876190610"
+        },
+        "status": "evacuated",
+        "present_during_flood": true
+      },
+      {
+        "student_id": "STU048",
+        "name": "Jagdeep Gill",
+        "grade": 10,
+        "age": 16,
+        "emergency_contact": {
+          "name": "Manjit Mann",
+          "relation": "Mother",
+          "phone": "9863059032"
+        },
+        "status": "safe",
+        "present_during_flood": false
+      },
+      {
+        "student_id": "STU049",
+        "name": "Jagdeep Sekhon",
+        "grade": 10,
+        "age": 18,
+        "emergency_contact": {
+          "name": "Sukhpreet Kaur",
+          "relation": "Brother",
+          "phone": "9871869979"
+        },
+        "status": "injured",
+        "present_during_flood": false
+      },
+      {
+        "student_id": "STU050",
+        "name": "Baljeet Singh",
+        "grade": 10,
+        "age": 18,
+        "emergency_contact": {
+          "name": "Jagdeep Bajwa",
+          "relation": "Guardian",
+          "phone": "9879346417"
+        },
+        "status": "evacuated",
+        "present_during_flood": true
+      }
+    ],
+    "staff": [
+      {
+        "staff_id": "STF01",
+        "name": "Jagdish Kawal",
+        "role": "Headmaster",
+        "phone": "9811112233"
+      },
+      {
+        "staff_id": "STF02",
+        "name": "Rajinder Kaur",
+        "role": "Teacher",
+        "subject": "Science",
+        "phone": "9812223344"
+      }
+    ],
+    "resources": {
+      "fire_extinguishers": 5,
+      "first_aid_kits": 2,
+      "emergency_exits": 2,
+      "safest_floor": "First Floor"
+    },
+    "disaster_plan": {
+      "immediate_action": "Evacuate ground floor, move all movable assets to first floor, alert district administration",
+      "post_flood_action": "Inspect structure before reopening, repair boundary wall, sanitize classrooms"
+    },
+    "last_drill_date": "2025-07-10",
+    "school_status": "inaccessible until water recedes"
+  }
+]

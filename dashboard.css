@@ -1,0 +1,130 @@
+/* === Dashboard Page Styles === */
+
+/* Reset / Base */
+.floating-particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .particle {
+            position: absolute;
+            background: rgba(0, 212, 255, 0.1);
+            border-radius: 50%;
+            animation: float 6s ease-in-out infinite;
+        }
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #1a1a40, #0f3460);
+  color: #fff;
+}
+
+/* Header */
+.header {
+  background: rgba(0,0,0,0.6);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.header h1 {
+  font-size: 1.6rem;
+  margin: 0;
+  color: #00e676;
+}
+
+.header nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.header nav a:hover {
+  color: #00e676;
+}
+
+/* Dashboard container */
+.dashboard {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Section headings */
+.dashboard h2 {
+  margin: 25px 0 15px;
+  font-size: 1.4rem;
+  color: #ffca28;
+}
+
+/* Progress Card */
+.progress-card {
+  background: #1b1b3a;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease;
+}
+
+.progress-card:hover {
+  transform: translateY(-4px);
+}
+
+.progress-card p {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+
+/* Upcoming Drills List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #2e2e5e;
+  margin: 10px 0;
+  padding: 12px 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: background 0.2s ease;
+}
+
+ul li:hover {
+  background: #3f3f7d;
+}
+/* Teacher Dashboard Table */
+.progress-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  font-size: 0.95rem;
+}
+
+.progress-table th, 
+.progress-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.progress-table th {
+  background: #2e2e5e;
+  color: #ffca28;
+  font-weight: 600;
+}
+
+.progress-table tr:hover {
+  background: rgba(255,255,255,0.05);
+}

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DPHub - Disaster Preparedness Hub</title>
+    <link rel="stylesheet" href="ra.css">
+    <script src="ra.js" defer></script>
+</head>
+<body>
+    <!-- Floating Particles -->
+    <div class="floating-particles" id="particles"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">DPHub</div>
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#education">Education</a>
+            <a href="#virtual-sessions">Virtual Sessions</a>
+        </nav>
+        <button class="login-btn" id="loginBtn">Login</button>
+
+
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-left">
+                <h1 class="hero-title">
+                    Disaster<br>
+                    <span style="color: #00d4ff;">Preparedness</span> 
+                    <span style="color: #ff4081;">Hub</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Real-time alerts, science-backed education, and gamified training to 
+                    keep your community resilient.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-primary" onclick="scrollToSection('education')">Start Learning</button>
+                    <button class="btn-secondary" onclick="scrollToSection('virtual-sessions')">Join a Drill</button>
+                </div>
+                <div class="disaster-types">
+                    <div class="disaster-type active" data-type="flood">Flood</div>
+                    <div class="disaster-type" data-type="fire">Fire</div>
+                    <div class="disaster-type" data-type="cyclone">Cyclone</div>
+                    <div class="disaster-type" data-type="earthquake">Earthquake</div>
+                </div>
+            </div>
+
+            <div class="alerts-container">
+                <div class="alerts-panel">
+                    <h2 class="alerts-header">🚨 Live Regional Alerts</h2>
+                    <div class="alert-item alert-flood">
+                        <span class="alert-badge badge-high">HIGH</span>
+                        <h3>Assam, IN</h3>
+                        <p>River Brahmaputra rising: low-lying areas inundated.</p>
+                        <small>07:25 PM</small>
+                    </div>
+                    <div class="alert-item alert-fire">
+                        <span class="alert-badge badge-moderate">MODERATE</span>
+                        <h3>Nashik, IN</h3>
+                        <p>Dry winds increasing wildfire spread near orchards.</p>
+                        <small>07:17 PM</small>
+                    </div>
+                    <div class="alert-item alert-cyclone">
+                        <span class="alert-badge badge-low">LOW</span>
+                        <h3>Odisha Coast, IN</h3>
+                        <p>Cyclone Siena approaching; gusts up to 150 km/h.</p>
+                        <small>07:30 PM</small>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Safety Tips Section -->
+        <section class="safety-section" id="safety">
+            <h2 class="section-title">⚡ Quick Safety</h2>
+            <div class="safety-grid">
+                <div class="safety-card">
+                    <div class="safety-icon">🌊</div>
+                    <h3>Flood</h3>
+                    <p>Move to higher ground, avoid bridges.</p>
+                </div>
+                <div class="safety-card">
+                    <div class="safety-icon">🔥</div>
+                    <h3>Fire</h3>
+                    <p>Get low, cover nose, check heat on doors.</p>
+                </div>
+                <div class="safety-card">
+                    <div class="safety-icon">🌪</div>
+                    <h3>Cyclone</h3>
+                    <p>Stay indoors, away from windows.</p>
+                </div>
+                <div class="safety-card">
+                    <div class="safety-icon">📳</div>
+                    <h3>Earthquake</h3>
+                    <p>Drop, Cover, Hold On.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Knowledge Dashboard -->
+        <section class="knowledge-section">
+            <h2 class="section-title">📊 Knowledge Gap Dashboard</h2>
+            <div style="background: rgba(0,0,0,0.3); border-radius: 15px; padding: 2rem; backdrop-filter: blur(10px);">
+                <p style="margin-bottom: 1rem; color: #ccc;">Where awareness is low, risk is high. Track awareness to prioritize training.</p>
+                
+                <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                    <span>Flood kit readiness</span>
+                    <span>62%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 62%;"></div>
+                </div>
+
+                <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                    <span>Fire escape plan</span>
+                    <span>48%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 48%;"></div>
+                </div>
+
+                <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem;">
+                    <span>Emergency contacts</span>
+                    <span>67%</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 67%;"></div>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 2rem;">
+                    <div>
+                        <h4 style="color: #ff4081; margin-bottom: 1rem;">Myth</h4>
+                        <p>Open windows during a cyclone to balance pressure.</p>
+                    </div>
+                    <div>
+                        <h4 style="color: #00d4ff; margin-bottom: 1rem;">Myth</h4>
+                        <p>Driving through flood water is safe if slow.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Quiz Section -->
+        <section class="quiz-section" id="education">
+            <h2 class="section-title">🧠 Quick Quizzes</h2>
+            <div class="quiz-grid">
+                <div class="quiz-card">
+                    <div class="quiz-question">What should you do first during a flood warning?</div>
+                    <div class="quiz-options">
+                        <div class="quiz-option" onclick="selectAnswer(this, false)">Drive through water to move fast</div>
+                        <div class="quiz-option" onclick="selectAnswer(this, true)">Move to higher ground immediately</div>
+                        <div class="quiz-option" onclick="selectAnswer(this, false)">Wait until water rises</div>
+                        <div class="quiz-option" onclick="selectAnswer(this, false)">Open all windows</div>
+                    </div>
+                </div>
+
+                <div class="quiz-card">
+                    <div class="quiz-question">During a fire, which is safest?</div>
+                    <div class="quiz-options">
+                        <div class="quiz-option" onclick="selectAnswer(this, false)">Use elevators</div>
+                        <div class="quiz-option" onclick="selectAnswer(this, true)">Get low and crawl under smoke</div>
+                        <div class="quiz-option" onclick="selectAnswer(this, false)">Hide in a closet</div>
+                        <div class="quiz-option" onclick="selectAnswer(this, false)">Break windows</div>
+                    </div>
+                </div>
+
+                <div class="quiz-card">
+                    <div class="quiz-question">Cyclone prep includes:</div>
+                    <div class="quiz-options">
+                        <div class="quiz-option" onclick="selectAnswer(this, false)">Tape windows only</div>
+                        <div class="quiz-option" onclick="selectAnswer(this, true)">Secure loose objects outdoors</div>
+                        <div class="quiz-option" onclick="selectAnswer(this, false)">Open doors for airflow</div>
+                        <div class="quiz-option" onclick="selectAnswer(this, false)">Ignore alerts</div>
+                    </div>
+                </div>
+
+                <div class="quiz-card">
+                    <div class="quiz-question">Earthquake drill means:</div>
+                    <div class="quiz-options">
+                        <div class="quiz-option" onclick="selectAnswer(this, true)">Drop, Cover, Hold On</div>
+                        <div class="quiz-option" onclick="selectAnswer(this, false)">Run outside immediately</div>
+                        <div class="quiz-option" onclick="selectAnswer(this, false)">Stand in doorway</div>
+                        <div class="quiz-option" onclick="selectAnswer(this, false)">Use elevator</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Learning Modules Section -->
+        <section class="modules-section" id="virtual-sessions">
+            <h2 style="text-align: center; margin-bottom: 1rem; color: #00d4ff;">🎓 Learning Modules & Virtual Drills</h2>
+            <p style="text-align: center; opacity: 0.8;">Join expert-led live sessions and interactive drills. Practice makes preparedness.</p>
+            
+            <div style="text-align: center; margin: 2rem 0;">
+                <button class="btn-secondary" style="margin-right: 1rem;">Browse Modules</button>
+                <button class="btn-primary">Upcoming Drills</button>
+            </div>
+
+            <div class="modules-grid">
+                <div class="module-card">
+                    <h3 style="color: #9c27b0;">Cyclone Readiness 101</h3>
+                    <p style="margin: 1rem 0; opacity: 0.8;">9/9/2025, 8:31 PM</p>
+                    <p style="margin-bottom: 1rem; opacity: 0.8;">Host: NDRF Trainer A</p>
+                    <a href="https://www.youtube.com/watch?v=SkpcMEAU1pM" target="_blank"></a>
+                    <button class="btn-primary" style="width: 100%;">Join Session</button>
+                </div>
+                
+                <div class="module-card">
+                <h3 style="color: #2196f3;">Community Flood Drill</h3>
+                <p style="margin: 1rem 0; opacity: 0.8;">9/9/2025, 9:15 PM</p>
+                <p style="margin-bottom: 1rem; opacity: 0.8;">Host: Relief Org B</p>
+               <a href="https://www.youtube.com/watch?v=pi_nUPcQz_A" target="_blank">
+                <button class="btn-secondary" style="width: 100%;">Join Drill</button>
+  </a>
+</div>
+
+                
+                <div class="module-card">
+                    <h3 style="color: #ff5722;">Home Fire Safety</h3>
+                    <p style="margin: 1rem 0; opacity: 0.8;">9/9/2025, 10:31 PM</p>
+                    <p style="margin-bottom: 1rem; opacity: 0.8;">Host: Fire Dept C</p>
+                    <a href="https://www.youtube.com/watch?v=C9KSFRq4rXA&t=10s" target="_blank"></a>
+                    <button class="btn-primary" style="width: 100%;">Join Drill</button>
+                </div>
+            </div>
+
+            <div style="background: rgba(0, 212, 255, 0.1); border-radius: 15px; padding: 2rem; margin-top: 2rem; border: 1px solid rgba(0, 212, 255, 0.3);">
+                <h3 style="color: #00d4ff; margin-bottom: 1rem;">💡 Did you know?</h3>
+                <p>Store copies of IDs and insurance in waterproof bags.</p>
+            </div>
+        </section>
+    </main>
+
+   <!-- Login Modal -->
+<div class="modal" id="loginModal">
+  <div class="modal-content">
+    <button class="close-btn" onclick="closeModal()">&times;</button>
+    
+    <!-- Step 1: Role Selection -->
+    <div id="roleSelection">
+      <div class="modal-header">🔑 Choose Login Type</div>
+      <div style="display: flex; flex-direction: column; gap: 1rem; margin-top: 1.5rem;">
+        <button class="btn-primary" style="width:100%;" onclick="selectRole('teacher')">👨‍🏫 Teacher Login</button>
+        <button class="btn-secondary" style="width:100%;" onclick="selectRole('student')">👩‍🎓 Student Login</button>
+      </div>
+    </div>
+
+    <!-- Step 2: Actual Login Form (hidden initially) -->
+    <div id="loginFormContainer" style="display:none;">
+      <div class="modal-header" id="loginHeader">🔐 Welcome Back</div>
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn-primary" style="width: 100%;">Sign In</button>
+        </div>
+        <div style="text-align: center; margin-top: 1rem;">
+          <a href="#" onclick="openForgotPassword()" style="color: #00d4ff; text-decoration: none;">Forgot Password?</a> | 
+          <a href="#" onclick="openRegister()" style="color: #00d4ff; text-decoration: none;">Create Account</a>
+        </div>
+        <div style="text-align:center; margin-top:1rem;">
+          <a href="#" onclick="goBackToRole()" style="color:#ff4081; text-decoration:none;">⬅ Back</a>
+        </div>
+      </form>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Forgot Password Modal -->
+<div class="modal" id="forgotPasswordModal" style="display:none;">
+  <div class="modal-content">
+    <button class="close-btn" onclick="closeForgotPassword()">&times;</button>
+    <h2>🔑 Reset Password</h2>
+    <form id="forgotPasswordForm">
+      <input type="email" id="resetEmail" placeholder="Enter your email" required>
+      <button type="submit" class="btn-primary" style="width: 100%;">Send Reset Link</button>
+    </form>
+  </div>
+</div>
+
+<!-- Create Account Modal -->
+<div class="modal" id="registerModal" style="display:none;">
+  <div class="modal-content">
+    <button class="close-btn" onclick="closeRegister()">&times;</button>
+    <h2>🆕 Create Account</h2>
+    <form id="registerForm">
+      <input type="text" id="name" placeholder="Full Name" required>
+      <input type="email" id="regEmail" placeholder="Email" required>
+      <input type="password" id="regPassword" placeholder="Password" required>
+      <button type="submit" class="btn-primary" style="width: 100%;">Sign Up</button>
+    </form>
+  </div>
+</div>
+<!-- Drill Modal -->
+<div class="modal" id="drillModal" style="display:none;">
+  <div class="modal-content">
+    <button class="close-btn" onclick="closeDrill()">&times;</button>
+    <h2 id="drillTitle">Drill Session</h2>
+    <p id="drillDetails">Loading drill details...</p>
+
+    <!-- Video container (hidden until Start Drill is clicked) -->
+    <div id="drillVideoContainer" style="display:none; margin-top:1rem;">
+      <iframe id="drillVideo" width="100%" height="315" 
+        src="" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <button id="startDrillBtn" class="btn-primary" style="width:100%;">🚀 Start Drill</button>
+  </div>
+</div>
+
+
+
+</body>
+</html>
